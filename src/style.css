@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+header {
+    width: 100vw;
+    height: 10vh;
+    
+    position: absolute;
+    display: flex;
+
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+
+/*
+#logotipo-amg-gustavo {
+    position: relative;
+
+    background size: 1 vh;
+
+}
+
+*/
+
+
+
+
+
+main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#princial-imagem-aurora {
+    width: 100%;
+    margin-top: -70vh;
+    top: -50vh;
+}
+
+#prinipal-gradiente-fundo {
+    width: 100%;
+    height: 320vh;
+
+    position: absolute;
+    top: 80vh;
+
+    background: linear-gradient(transparent, rgb(0 0 0) 15%);
+}
+
+.principal-conteudo {
+    width: 90vw;
+    height: 70vh;
+   
+    position: absolute;
+    border: 2px solid red;
+}
+
+#princ-conteudo-um {
+    top: 90vh;
+
+}
+
+#princ-conteudo-dois {
+    top: 180vh;
+
+}
+
+#princ-conteudo-tres {
+    top: 270vh;
+
+}
